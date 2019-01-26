@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="todo.css">
+	<title>TO-DO APP</title>
+</head>
+
+<body>
+	<div id="main">
+		<p id="header">My TO-DO List app</p>
+
+		<div>
+			<div class="text">
+				<p id="text-1">Enter text into the input field to add items to your list.</p>
+				<p id="text-2">Click on each Item to mark it as Completed </p>
+				<p id="text-3">Click on "X" to delete an Item from your list</p>
+			</div>
+		</div>
+		<div>
+			<form id="addlist">
+			<input id="userinput" type="text" placeholder="Input your list here" >
+			<input type="submit" id="enter" value="Add">
+			</form>
+		</div>
+		<ul id="mylist">
+			<li class="list-group-item">Sleep throughout the Day</li>
+			<li class="list-group-item">Go to the gym</li>
+		</ul>
+
+		<script src="todo.js"></script>
+
+</body>
+
+</html>
